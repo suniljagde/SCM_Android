@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.HomeActivity">
+
+
+
+
+<!--    <com.google.android.material.appbar.AppBarLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+
+<!--        <androidx.appcompat.widget.Toolbar-->
+<!--            android:id="@+id/toolbar"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@color/colorprimary"-->
+<!--            app:menu="@menu/logoutmenu"/>-->
+<!--    </com.google.android.material.appbar.AppBarLayout>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativelayout"
+        android:layout_marginTop="5dp" >
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="@color/white"-->
+<!--            android:orientation="horizontal"-->
+<!--            >-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="680dp"-->
+<!--                app:cardMaxElevation="11dp"-->
+<!--                android:layout_margin="5dp"-->
+<!--                app:cardUseCompatPadding="true"-->
+<!--                >-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:layout_marginTop="110dp">-->
+
+<!--                    <androidx.cardview.widget.CardView-->
+<!--                        android:layout_width="165dp"-->
+<!--                        android:layout_weight="2"-->
+<!--                        android:layout_height="125dp"-->
+<!--                        app:cardCornerRadius="8dp"-->
+<!--                        app:cardElevation="5dp"-->
+<!--                        app:cardUseCompatPadding="true"-->
+<!--                        android:layout_marginLeft="4dp">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="Support Call"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:padding="16dp"-->
+<!--                            android:textSize="18dp"-->
+<!--                            android:layout_gravity="bottom"/>-->
+
+<!--                    </androidx.cardview.widget.CardView>-->
+
+<!--                    <androidx.cardview.widget.CardView-->
+<!--                        android:layout_width="165dp"-->
+<!--                        android:layout_weight="2"-->
+<!--                        android:layout_height="125dp"-->
+<!--                        android:layout_marginRight="4dp"-->
+<!--                        app:cardCornerRadius="8dp"-->
+<!--                        app:cardElevation="5dp"-->
+<!--                        app:cardUseCompatPadding="true" >-->
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="Preventive Call"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:padding="16dp"-->
+<!--                            android:textSize="18dp"-->
+<!--                            android:layout_gravity="bottom"/>-->
+<!--                    </androidx.cardview.widget.CardView>-->
+
+
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:layout_marginTop="250dp">-->
+
+<!--                    <androidx.cardview.widget.CardView-->
+<!--                        android:layout_width="165dp"-->
+<!--                        android:layout_weight="2"-->
+<!--                        android:layout_height="125dp"-->
+<!--                        app:cardCornerRadius="8dp"-->
+<!--                        app:cardElevation="5dp"-->
+<!--                        app:cardUseCompatPadding="true"-->
+<!--                        android:layout_marginLeft="4dp">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="AMCSupport call"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:padding="16dp"-->
+<!--                            android:textSize="18dp"-->
+<!--                            android:layout_gravity="bottom"/>-->
+
+<!--                    </androidx.cardview.widget.CardView>-->
+
+<!--                    <androidx.cardview.widget.CardView-->
+<!--                        android:layout_width="165dp"-->
+<!--                        android:layout_weight="2"-->
+<!--                        android:layout_height="125dp"-->
+<!--                        android:layout_marginRight="4dp"-->
+<!--                        app:cardCornerRadius="8dp"-->
+<!--                        app:cardElevation="5dp"-->
+<!--                        app:cardUseCompatPadding="true" >-->
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="AMC Preventive "-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:padding="16dp"-->
+<!--                            android:textSize="18dp"-->
+<!--                            android:layout_gravity="bottom"/>-->
+<!--                    </androidx.cardview.widget.CardView>-->
+
+
+<!--                </LinearLayout>-->
+
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:layout_marginTop="400dp">-->
+
+<!--                    <androidx.cardview.widget.CardView-->
+<!--                        android:layout_width="295dp"-->
+<!--                        android:layout_height="80dp"-->
+<!--                        android:layout_marginRight="35dp"-->
+<!--                        android:layout_marginLeft="35dp"-->
+<!--                        app:cardCornerRadius="8dp"-->
+<!--                        app:cardElevation="5dp"-->
+<!--                        app:cardUseCompatPadding="true">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="Paid Support Call"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:padding="16dp"-->
+<!--                            android:textSize="18dp"-->
+<!--                            android:layout_gravity="center"/>-->
+<!--                    </androidx.cardview.widget.CardView>-->
+
+<!--                </LinearLayout>-->
+
+
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+
+<!--        </LinearLayout>-->
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bottomnav"
+            app:menu="@menu/bottom_nav"
+            android:background="@color/white"
+            android:padding="5dp"
+            android:layout_alignParentBottom="true"
+
+            />
+<!--        <com.google.android.material.navigation.NavigationView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:id="@+id/logout"-->
+<!--            app:menu="@menu/logoutmenu"/>-->
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+<!--            android:id="@+id/rv_bill_List"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:nestedScrollingEnabled="false"-->
+<!--            android:overScrollMode="never"-->
+
+<!--            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"-->
+<!--            tools:listitem="@layout/call_details" />-->
+
+
+
+
+
+
+
+
+</RelativeLayout>
+

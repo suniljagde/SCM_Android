@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Dashboard"
+        android:id="@+id/dashboard"
+        android:icon="@drawable/dashboard"
+        />
+    <item
+        android:title="Users"
+        android:id="@+id/users"
+        android:icon="@drawable/user"/>
+    <item
+        android:title="Profile"
+        android:id="@+id/profile"
+        android:icon="@drawable/profile"
+        />
+    <item
+        android:title="CallData"
+        android:id="@+id/cdata"
+        android:icon="@drawable/baseline_data_exploration_24"/>
+
+</menu>

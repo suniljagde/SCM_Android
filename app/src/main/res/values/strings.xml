@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TIPLservice</string>
+    <string name="already_register_login_here">Already register| Login here</string>
+    <string name="register">Register</string>
+    <string name="nnot_register_create_your_account">NNot Register Create Your Account</string>
+    <string name="password">password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

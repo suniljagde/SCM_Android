@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#085086</color>
+    <color name="purple_500">#085086</color>
+    <color name="purple_700">#085086</color>
+    <color name="colorprimary">#085086</color>
+    <color name="teal_700">#085086</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="hint_color">#858585</color>
+    <color name="text_color">#111111</color>
+    <color name="dp_bg_color">#C6D9E7</color>
+    <color name="border_color">#B7B7B7</color>
+    <color name="process_black">#222222</color>
+    <color name="cloud">#E7E8E9</color>
+    <color name="strive_orange">#FF5F00</color>
+    <color name="process_green">#19D3C5</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#93c6fd </color>
+    <color name="dot_dark_screen2">#93c6fd</color>
+    <color name="dot_dark_screen3">#93c6fd </color>
+    <color name="dot_dark_screen4">#93c6fd </color>
+    <color name="dot_dark_screen5">#93c6fd </color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#1b0aa0</color>
+    <color name="dot_light_screen2">#1b0aa0</color>
+    <color name="dot_light_screen3">#1b0aa0</color>
+    <color name="dot_light_screen4">#1b0aa0</color>
+    <color name="dot_light_screen5">#1b0aa0</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+        <item>@color/dot_light_screen5</item>
+    </array>
+
+    <array name="array_dot_inactive">
+    <item>@color/dot_dark_screen1</item>
+    <item>@color/dot_dark_screen2</item>
+    <item>@color/dot_dark_screen3</item>
+    <item>@color/dot_dark_screen4</item>
+    <item>@color/dot_dark_screen5</item>
+    </array>
+<!--    <color name="colorprimary">#085086</color>-->
+</resources>
